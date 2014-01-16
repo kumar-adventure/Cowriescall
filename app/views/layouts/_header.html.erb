@@ -1,0 +1,37 @@
+<div class="container header pad15">
+    <div class="row">
+    	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 logo">
+        	<%= image_tag("cowriescall.png") %>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wellcome">
+            	<ul class="pull-right">
+                	<li class=""><p><b>Wellcome, <span id="username">Cowries2013</span></b></p></li>
+                    <li>
+                        <a href="#">My Account</a> / 
+                        <% if user_signed_in? %>
+                            <%= link_to "Logout", destroy_user_session_path, :method=>"delete" %>
+                        <%else%>
+                            <%= link_to "Login", user_session_path%>
+                        <%end%>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad ">
+            <div class="pull-right">
+            	<div class="nevication navbar-collapse collapse nopad">
+            	<ul class="nav nav-pills pull-right">
+                	<li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Buy credit/Login</a></li>
+                    <li><a href="#">Ways to call</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                </div>
+            </div><div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>

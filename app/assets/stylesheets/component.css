@@ -1,0 +1,34 @@
+.nopad {padding-left:0; padding-right:0}
+.nopad-left {padding-left:0;}
+.nopad-right {padding-right:0;}
+.pad15 {padding:15px;}
+
+
+
+
+.push10 {margin-bottom:10px;}
+.push15 {margin-bottom:15px;}
+.push20 {margin-bottom:20px;}
+.push25 {margin-bottom:25px;}
+.push30 {margin-bottom:30px;}
+.push35 {margin-bottom:35px;}
+
+
+
+
+
+
+.inline {display:inline-block}
+
+
+
+
+
+
+.row.mainbox h1,h2,h3,h4,h5 {color:#007FC2; font-weight:bold;}
+.row.mainbox h1 {font-size:20px;}
+.row.mainbox h2 {font-size:18px;}
+.row.mainbox h3 {font-size:16px;}
+.row.mainbox h4 {font-size:14px;}
+.row.mainbox h5 {font-size:12px;}
+.black {color:#000000!important}
